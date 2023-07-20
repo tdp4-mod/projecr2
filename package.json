@@ -1,0 +1,40 @@
+{
+  "name": "lavalink-musicbot",
+  "version": "1.0.0",
+  "description": "Music bot that uses Lavalink for its audio player.",
+  "main": "index.js",
+  "scripts": {
+    "start": "n run 12 ~/bot/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allvaa/lavalink-musicbot.git"
+  },
+  "author": "Allvaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Allvaa/lavalink-musicbot/issues"
+  },
+  "homepage": "https://github.com/Allvaa/lavalink-musicbot#readme",
+  "dependencies": {
+    "@lavacord/discord.js": "0.0.7",
+    "adhan": "^4.4.3",
+    "axios": "^0.27.2",
+    "child_process": "^1.0.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "event": "^1.0.0",
+    "express": "^4.18.2",
+    "lavasfy": "2.2.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.41",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "pm2": "^5.2.2",
+    "pretty-ms": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0"
+  }
+}
